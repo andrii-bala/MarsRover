@@ -1,0 +1,17 @@
+platform :ios, '9.0'
+use_frameworks!
+inhibit_all_warnings!
+
+def pods
+  pod 'Kingfisher'
+  pod 'Moya'
+  pod 'SVProgressHUD'
+end
+
+target 'Bala.Andrii.MarsRover' do
+  pods
+end
+
+target 'Bala.Andrii.MarsRoverTests' do
+  pods
+end

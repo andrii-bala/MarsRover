@@ -8,20 +8,96 @@
 
 /* Begin PBXBuildFile section */
 		140E0B2221D0D63700CDF4DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E0B2121D0D63700CDF4DD /* AppDelegate.swift */; };
-		140E0B2421D0D63700CDF4DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E0B2321D0D63700CDF4DD /* ViewController.swift */; };
 		140E0B2721D0D63700CDF4DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140E0B2521D0D63700CDF4DD /* Main.storyboard */; };
 		140E0B2921D0D63800CDF4DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140E0B2821D0D63800CDF4DD /* Assets.xcassets */; };
 		140E0B2C21D0D63800CDF4DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140E0B2A21D0D63800CDF4DD /* LaunchScreen.storyboard */; };
+		14AE9C2821D2289D0045DE5C /* PhotosPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE9C2721D2289D0045DE5C /* PhotosPresenterTest.swift */; };
+		14AE9C2C21D22A340045DE5C /* DisplayPhotosUseCaseStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE9C2B21D22A340045DE5C /* DisplayPhotosUseCaseStub.swift */; };
+		14AE9C2F21D22F500045DE5C /* PhotosViewRouterSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE9C2E21D22F500045DE5C /* PhotosViewRouterSpy.swift */; };
+		14AE9C3221D230430045DE5C /* PhotosViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE9C3121D230430045DE5C /* PhotosViewSpy.swift */; };
+		14AE9C3521D231D90045DE5C /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE9C3421D231D90045DE5C /* Photo.swift */; };
+		14AE9C3821D235260045DE5C /* Photos_test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 14AE9C3721D235260045DE5C /* Photos_test.txt */; };
+		14AE9C3A21D245D10045DE5C /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE9C3921D245D10045DE5C /* NSError.swift */; };
+		14AE9C3C21D2482C0045DE5C /* PhotoCellViewSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE9C3B21D2482C0045DE5C /* PhotoCellViewSpy.swift */; };
+		14BAF73621D255B800BEEEE2 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BAF73521D255B800BEEEE2 /* UIScreen+Extension.swift */; };
+		14E4233E21D0FE8C00FEBE3C /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4233D21D0FE8C00FEBE3C /* PhotosViewController.swift */; };
+		14E4234121D0FFB800FEBE3C /* PhotosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4234021D0FFB800FEBE3C /* PhotosPresenter.swift */; };
+		14E4234321D1006100FEBE3C /* PhotosViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4234221D1006100FEBE3C /* PhotosViewRouter.swift */; };
+		14E4234621D1016400FEBE3C /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4234521D1016400FEBE3C /* ViewRouter.swift */; };
+		14E4234921D101C000FEBE3C /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4234821D101C000FEBE3C /* Photo.swift */; };
+		14E4234C21D107AA00FEBE3C /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4234B21D107AA00FEBE3C /* PhotoDetailsViewController.swift */; };
+		14E4234E21D1081F00FEBE3C /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4234D21D1081F00FEBE3C /* PhotoCell.swift */; };
+		14E4235021D1086900FEBE3C /* PhotosConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4234F21D1086900FEBE3C /* PhotosConfigurator.swift */; };
+		14E4235321D1102C00FEBE3C /* DisplayPhotosList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4235221D1102C00FEBE3C /* DisplayPhotosList.swift */; };
+		14E4235821D1154000FEBE3C /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4235721D1154000FEBE3C /* UIViewController+Alert.swift */; };
+		14E4235B21D11D0400FEBE3C /* PhotosGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4235A21D11D0400FEBE3C /* PhotosGateway.swift */; };
+		14E4235E21D11D8E00FEBE3C /* ApiPhotosGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4235D21D11D8E00FEBE3C /* ApiPhotosGateway.swift */; };
+		14E4236021D1214A00FEBE3C /* MoyaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4235F21D1214A00FEBE3C /* MoyaAPI.swift */; };
+		14E4236221D124B200FEBE3C /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4236121D124B200FEBE3C /* ApiClient.swift */; };
+		14E4236621D12FFA00FEBE3C /* Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4236521D12FFA00FEBE3C /* Safe.swift */; };
+		14E4236921D1305B00FEBE3C /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4236821D1305B00FEBE3C /* Codable.swift */; };
+		14E4236B21D1349C00FEBE3C /* PhotoDetailsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4236A21D1349C00FEBE3C /* PhotoDetailsConfigurator.swift */; };
+		14E4236D21D134B600FEBE3C /* PhotoDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4236C21D134B600FEBE3C /* PhotoDetailsPresenter.swift */; };
+		14E4236F21D134D300FEBE3C /* PhotoDetailsViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4236E21D134D300FEBE3C /* PhotoDetailsViewRouter.swift */; };
+		14E4237221D13EA300FEBE3C /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4237121D13EA300FEBE3C /* ShadowView.swift */; };
+		A3EA5DB9C7C5BF9FAE099E21 /* Pods_Bala_Andrii_MarsRoverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400EC40E98A3D4AC20311CCA /* Pods_Bala_Andrii_MarsRoverTests.framework */; };
+		EC1C88B1F91D8EC48598A2AF /* Pods_Bala_Andrii_MarsRover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A38DC528E0B32BBE7723B2 /* Pods_Bala_Andrii_MarsRover.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14AE9C2121D2285D0045DE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 140E0B1621D0D63700CDF4DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140E0B1D21D0D63700CDF4DD;
+			remoteInfo = Bala.Andrii.MarsRover;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		140E0B1E21D0D63700CDF4DD /* Bala.Andrii.MarsRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bala.Andrii.MarsRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		140E0B2121D0D63700CDF4DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		140E0B2321D0D63700CDF4DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		140E0B2621D0D63700CDF4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		140E0B2821D0D63800CDF4DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		140E0B2B21D0D63800CDF4DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		140E0B2D21D0D63800CDF4DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE9C1C21D2285D0045DE5C /* Bala.Andrii.MarsRoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bala.Andrii.MarsRoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AE9C2021D2285D0045DE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE9C2721D2289D0045DE5C /* PhotosPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPresenterTest.swift; sourceTree = "<group>"; };
+		14AE9C2B21D22A340045DE5C /* DisplayPhotosUseCaseStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPhotosUseCaseStub.swift; sourceTree = "<group>"; };
+		14AE9C2E21D22F500045DE5C /* PhotosViewRouterSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewRouterSpy.swift; sourceTree = "<group>"; };
+		14AE9C3121D230430045DE5C /* PhotosViewSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewSpy.swift; sourceTree = "<group>"; };
+		14AE9C3421D231D90045DE5C /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		14AE9C3721D235260045DE5C /* Photos_test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Photos_test.txt; sourceTree = "<group>"; };
+		14AE9C3921D245D10045DE5C /* NSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSError.swift; sourceTree = "<group>"; };
+		14AE9C3B21D2482C0045DE5C /* PhotoCellViewSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCellViewSpy.swift; sourceTree = "<group>"; };
+		14BAF73521D255B800BEEEE2 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
+		14E4233D21D0FE8C00FEBE3C /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		14E4234021D0FFB800FEBE3C /* PhotosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPresenter.swift; sourceTree = "<group>"; };
+		14E4234221D1006100FEBE3C /* PhotosViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewRouter.swift; sourceTree = "<group>"; };
+		14E4234521D1016400FEBE3C /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		14E4234821D101C000FEBE3C /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		14E4234B21D107AA00FEBE3C /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		14E4234D21D1081F00FEBE3C /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		14E4234F21D1086900FEBE3C /* PhotosConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosConfigurator.swift; sourceTree = "<group>"; };
+		14E4235221D1102C00FEBE3C /* DisplayPhotosList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPhotosList.swift; sourceTree = "<group>"; };
+		14E4235721D1154000FEBE3C /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		14E4235A21D11D0400FEBE3C /* PhotosGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosGateway.swift; sourceTree = "<group>"; };
+		14E4235D21D11D8E00FEBE3C /* ApiPhotosGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPhotosGateway.swift; sourceTree = "<group>"; };
+		14E4235F21D1214A00FEBE3C /* MoyaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaAPI.swift; sourceTree = "<group>"; };
+		14E4236121D124B200FEBE3C /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		14E4236521D12FFA00FEBE3C /* Safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Safe.swift; sourceTree = "<group>"; };
+		14E4236821D1305B00FEBE3C /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
+		14E4236A21D1349C00FEBE3C /* PhotoDetailsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsConfigurator.swift; sourceTree = "<group>"; };
+		14E4236C21D134B600FEBE3C /* PhotoDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsPresenter.swift; sourceTree = "<group>"; };
+		14E4236E21D134D300FEBE3C /* PhotoDetailsViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewRouter.swift; sourceTree = "<group>"; };
+		14E4237121D13EA300FEBE3C /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		29B7E2D4228C6F6C82D38EEC /* Pods-Bala.Andrii.MarsRover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bala.Andrii.MarsRover.release.xcconfig"; path = "Target Support Files/Pods-Bala.Andrii.MarsRover/Pods-Bala.Andrii.MarsRover.release.xcconfig"; sourceTree = "<group>"; };
+		400EC40E98A3D4AC20311CCA /* Pods_Bala_Andrii_MarsRoverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bala_Andrii_MarsRoverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		587FCEAB06A33D75B9E892D3 /* Pods-Bala.Andrii.MarsRoverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bala.Andrii.MarsRoverTests.release.xcconfig"; path = "Target Support Files/Pods-Bala.Andrii.MarsRoverTests/Pods-Bala.Andrii.MarsRoverTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4A38DC528E0B32BBE7723B2 /* Pods_Bala_Andrii_MarsRover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bala_Andrii_MarsRover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7AB6250E16DB6742A4E6C5A /* Pods-Bala.Andrii.MarsRoverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bala.Andrii.MarsRoverTests.debug.xcconfig"; path = "Target Support Files/Pods-Bala.Andrii.MarsRoverTests/Pods-Bala.Andrii.MarsRoverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAE3B95C25E76F536D5E0943 /* Pods-Bala.Andrii.MarsRover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bala.Andrii.MarsRover.debug.xcconfig"; path = "Target Support Files/Pods-Bala.Andrii.MarsRover/Pods-Bala.Andrii.MarsRover.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +105,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1C88B1F91D8EC48598A2AF /* Pods_Bala_Andrii_MarsRover.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE9C1921D2285D0045DE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EA5DB9C7C5BF9FAE099E21 /* Pods_Bala_Andrii_MarsRoverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +124,10 @@
 			isa = PBXGroup;
 			children = (
 				140E0B2021D0D63700CDF4DD /* Bala.Andrii.MarsRover */,
+				14AE9C1D21D2285D0045DE5C /* Bala.Andrii.MarsRoverTests */,
 				140E0B1F21D0D63700CDF4DD /* Products */,
+				4F791BFFCB79CDD169DD7E1E /* Pods */,
+				A4422845651F02A72891E6A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				140E0B1E21D0D63700CDF4DD /* Bala.Andrii.MarsRover.app */,
+				14AE9C1C21D2285D0045DE5C /* Bala.Andrii.MarsRoverTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,10 +154,91 @@
 			path = Bala.Andrii.MarsRover;
 			sourceTree = "<group>";
 		};
+		14AE9C1D21D2285D0045DE5C /* Bala.Andrii.MarsRoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				14AE9C2921D229F70045DE5C /* Helpers */,
+				14AE9C2621D2286B0045DE5C /* Presenters */,
+				14AE9C2021D2285D0045DE5C /* Info.plist */,
+			);
+			path = Bala.Andrii.MarsRoverTests;
+			sourceTree = "<group>";
+		};
+		14AE9C2621D2286B0045DE5C /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				14AE9C2721D2289D0045DE5C /* PhotosPresenterTest.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		14AE9C2921D229F70045DE5C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				14AE9C3621D2351C0045DE5C /* Source */,
+				14AE9C3321D231C60045DE5C /* Creators */,
+				14AE9C3021D230390045DE5C /* Views */,
+				14AE9C2D21D22F3A0045DE5C /* Routers */,
+				14AE9C2A21D22A290045DE5C /* UseCases */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		14AE9C2A21D22A290045DE5C /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				14AE9C2B21D22A340045DE5C /* DisplayPhotosUseCaseStub.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		14AE9C2D21D22F3A0045DE5C /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				14AE9C2E21D22F500045DE5C /* PhotosViewRouterSpy.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		14AE9C3021D230390045DE5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14AE9C3121D230430045DE5C /* PhotosViewSpy.swift */,
+				14AE9C3B21D2482C0045DE5C /* PhotoCellViewSpy.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14AE9C3321D231C60045DE5C /* Creators */ = {
+			isa = PBXGroup;
+			children = (
+				14AE9C3421D231D90045DE5C /* Photo.swift */,
+				14AE9C3921D245D10045DE5C /* NSError.swift */,
+			);
+			path = Creators;
+			sourceTree = "<group>";
+		};
+		14AE9C3621D2351C0045DE5C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				14AE9C3721D235260045DE5C /* Photos_test.txt */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		14BAF73421D2559F00BEEEE2 /* UIScreen */ = {
+			isa = PBXGroup;
+			children = (
+				14BAF73521D255B800BEEEE2 /* UIScreen+Extension.swift */,
+			);
+			path = UIScreen;
+			sourceTree = "<group>";
+		};
 		14E4233121D0DD2800FEBE3C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				140E0B2321D0D63700CDF4DD /* ViewController.swift */,
+				14E4234A21D1079200FEBE3C /* PhotoDetails */,
+				14E4233F21D0FF4700FEBE3C /* Photos */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -76,6 +246,7 @@
 		14E4233221D0DD3400FEBE3C /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				14E4234421D1015200FEBE3C /* Protocols */,
 				14E4233A21D0DE3A00FEBE3C /* Functions */,
 				14E4233921D0DE3200FEBE3C /* Extensions */,
 				14E4233821D0DE2600FEBE3C /* Classes */,
@@ -86,6 +257,7 @@
 		14E4233321D0DD3E00FEBE3C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				14E4234721D1018200FEBE3C /* Entities */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -93,6 +265,8 @@
 		14E4233421D0DD4800FEBE3C /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				14E4235C21D11D7600FEBE3C /* API */,
+				14E4235121D1100F00FEBE3C /* UseCase */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -126,6 +300,7 @@
 		14E4233821D0DE2600FEBE3C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				14E4237121D13EA300FEBE3C /* ShadowView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -142,6 +317,7 @@
 		14E4233A21D0DE3A00FEBE3C /* Functions */ = {
 			isa = PBXGroup;
 			children = (
+				14E4236521D12FFA00FEBE3C /* Safe.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -149,6 +325,7 @@
 		14E4233B21D0DE4300FEBE3C /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				14E4236721D1304E00FEBE3C /* Codable */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -156,8 +333,112 @@
 		14E4233C21D0DE4B00FEBE3C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				14BAF73421D2559F00BEEEE2 /* UIScreen */,
+				14E4235621D1152F00FEBE3C /* UIViewController */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		14E4233F21D0FF4700FEBE3C /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				14E4237021D1368D00FEBE3C /* Cell */,
+				14E4234F21D1086900FEBE3C /* PhotosConfigurator.swift */,
+				14E4233D21D0FE8C00FEBE3C /* PhotosViewController.swift */,
+				14E4234021D0FFB800FEBE3C /* PhotosPresenter.swift */,
+				14E4234221D1006100FEBE3C /* PhotosViewRouter.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		14E4234421D1015200FEBE3C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				14E4234521D1016400FEBE3C /* ViewRouter.swift */,
+				14E4235A21D11D0400FEBE3C /* PhotosGateway.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		14E4234721D1018200FEBE3C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				14E4234821D101C000FEBE3C /* Photo.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		14E4234A21D1079200FEBE3C /* PhotoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				14E4236A21D1349C00FEBE3C /* PhotoDetailsConfigurator.swift */,
+				14E4234B21D107AA00FEBE3C /* PhotoDetailsViewController.swift */,
+				14E4236C21D134B600FEBE3C /* PhotoDetailsPresenter.swift */,
+				14E4236E21D134D300FEBE3C /* PhotoDetailsViewRouter.swift */,
+			);
+			path = PhotoDetails;
+			sourceTree = "<group>";
+		};
+		14E4235121D1100F00FEBE3C /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				14E4235221D1102C00FEBE3C /* DisplayPhotosList.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		14E4235621D1152F00FEBE3C /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				14E4235721D1154000FEBE3C /* UIViewController+Alert.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		14E4235C21D11D7600FEBE3C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				14E4235D21D11D8E00FEBE3C /* ApiPhotosGateway.swift */,
+				14E4235F21D1214A00FEBE3C /* MoyaAPI.swift */,
+				14E4236121D124B200FEBE3C /* ApiClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		14E4236721D1304E00FEBE3C /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				14E4236821D1305B00FEBE3C /* Codable.swift */,
+			);
+			path = Codable;
+			sourceTree = "<group>";
+		};
+		14E4237021D1368D00FEBE3C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				14E4234D21D1081F00FEBE3C /* PhotoCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4F791BFFCB79CDD169DD7E1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAE3B95C25E76F536D5E0943 /* Pods-Bala.Andrii.MarsRover.debug.xcconfig */,
+				29B7E2D4228C6F6C82D38EEC /* Pods-Bala.Andrii.MarsRover.release.xcconfig */,
+				C7AB6250E16DB6742A4E6C5A /* Pods-Bala.Andrii.MarsRoverTests.debug.xcconfig */,
+				587FCEAB06A33D75B9E892D3 /* Pods-Bala.Andrii.MarsRoverTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4422845651F02A72891E6A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4A38DC528E0B32BBE7723B2 /* Pods_Bala_Andrii_MarsRover.framework */,
+				400EC40E98A3D4AC20311CCA /* Pods_Bala_Andrii_MarsRoverTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +448,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 140E0B3021D0D63800CDF4DD /* Build configuration list for PBXNativeTarget "Bala.Andrii.MarsRover" */;
 			buildPhases = (
+				B56D6462B298A8BE71D21597 /* [CP] Check Pods Manifest.lock */,
 				140E0B1A21D0D63700CDF4DD /* Sources */,
 				140E0B1B21D0D63700CDF4DD /* Frameworks */,
 				140E0B1C21D0D63700CDF4DD /* Resources */,
+				5A7A9B05D111AFBD94E9F092 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +462,26 @@
 			productName = Bala.Andrii.MarsRover;
 			productReference = 140E0B1E21D0D63700CDF4DD /* Bala.Andrii.MarsRover.app */;
 			productType = "com.apple.product-type.application";
+		};
+		14AE9C1B21D2285D0045DE5C /* Bala.Andrii.MarsRoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AE9C2521D2285D0045DE5C /* Build configuration list for PBXNativeTarget "Bala.Andrii.MarsRoverTests" */;
+			buildPhases = (
+				E5E49A8B439D335A8E0D976F /* [CP] Check Pods Manifest.lock */,
+				14AE9C1821D2285D0045DE5C /* Sources */,
+				14AE9C1921D2285D0045DE5C /* Frameworks */,
+				14AE9C1A21D2285D0045DE5C /* Resources */,
+				F4CE333CCB8C73BEFF455B1A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14AE9C2221D2285D0045DE5C /* PBXTargetDependency */,
+			);
+			name = Bala.Andrii.MarsRoverTests;
+			productName = Bala.Andrii.MarsRoverTests;
+			productReference = 14AE9C1C21D2285D0045DE5C /* Bala.Andrii.MarsRoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -192,6 +495,10 @@
 				TargetAttributes = {
 					140E0B1D21D0D63700CDF4DD = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					14AE9C1B21D2285D0045DE5C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 140E0B1D21D0D63700CDF4DD;
 					};
 				};
 			};
@@ -209,6 +516,7 @@
 			projectRoot = "";
 			targets = (
 				140E0B1D21D0D63700CDF4DD /* Bala.Andrii.MarsRover */,
+				14AE9C1B21D2285D0045DE5C /* Bala.Andrii.MarsRoverTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,19 +532,176 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14AE9C1A21D2285D0045DE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE9C3821D235260045DE5C /* Photos_test.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A7A9B05D111AFBD94E9F092 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bala.Andrii.MarsRover/Pods-Bala.Andrii.MarsRover-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bala.Andrii.MarsRover/Pods-Bala.Andrii.MarsRover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B56D6462B298A8BE71D21597 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bala.Andrii.MarsRover-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E49A8B439D335A8E0D976F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bala.Andrii.MarsRoverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4CE333CCB8C73BEFF455B1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bala.Andrii.MarsRoverTests/Pods-Bala.Andrii.MarsRoverTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bala.Andrii.MarsRoverTests/Pods-Bala.Andrii.MarsRoverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		140E0B1A21D0D63700CDF4DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140E0B2421D0D63700CDF4DD /* ViewController.swift in Sources */,
+				14E4234C21D107AA00FEBE3C /* PhotoDetailsViewController.swift in Sources */,
+				14E4233E21D0FE8C00FEBE3C /* PhotosViewController.swift in Sources */,
+				14E4236D21D134B600FEBE3C /* PhotoDetailsPresenter.swift in Sources */,
+				14BAF73621D255B800BEEEE2 /* UIScreen+Extension.swift in Sources */,
+				14E4235E21D11D8E00FEBE3C /* ApiPhotosGateway.swift in Sources */,
+				14E4236221D124B200FEBE3C /* ApiClient.swift in Sources */,
+				14E4236F21D134D300FEBE3C /* PhotoDetailsViewRouter.swift in Sources */,
+				14E4234121D0FFB800FEBE3C /* PhotosPresenter.swift in Sources */,
+				14E4235821D1154000FEBE3C /* UIViewController+Alert.swift in Sources */,
+				14E4234621D1016400FEBE3C /* ViewRouter.swift in Sources */,
+				14E4236621D12FFA00FEBE3C /* Safe.swift in Sources */,
+				14E4234E21D1081F00FEBE3C /* PhotoCell.swift in Sources */,
+				14E4234321D1006100FEBE3C /* PhotosViewRouter.swift in Sources */,
+				14E4237221D13EA300FEBE3C /* ShadowView.swift in Sources */,
+				14E4235021D1086900FEBE3C /* PhotosConfigurator.swift in Sources */,
 				140E0B2221D0D63700CDF4DD /* AppDelegate.swift in Sources */,
+				14E4235B21D11D0400FEBE3C /* PhotosGateway.swift in Sources */,
+				14E4234921D101C000FEBE3C /* Photo.swift in Sources */,
+				14E4236921D1305B00FEBE3C /* Codable.swift in Sources */,
+				14E4235321D1102C00FEBE3C /* DisplayPhotosList.swift in Sources */,
+				14E4236021D1214A00FEBE3C /* MoyaAPI.swift in Sources */,
+				14E4236B21D1349C00FEBE3C /* PhotoDetailsConfigurator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE9C1821D2285D0045DE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE9C2821D2289D0045DE5C /* PhotosPresenterTest.swift in Sources */,
+				14AE9C2C21D22A340045DE5C /* DisplayPhotosUseCaseStub.swift in Sources */,
+				14AE9C3221D230430045DE5C /* PhotosViewSpy.swift in Sources */,
+				14AE9C2F21D22F500045DE5C /* PhotosViewRouterSpy.swift in Sources */,
+				14AE9C3521D231D90045DE5C /* Photo.swift in Sources */,
+				14AE9C3C21D2482C0045DE5C /* PhotoCellViewSpy.swift in Sources */,
+				14AE9C3A21D245D10045DE5C /* NSError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14AE9C2221D2285D0045DE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 140E0B1D21D0D63700CDF4DD /* Bala.Andrii.MarsRover */;
+			targetProxy = 14AE9C2121D2285D0045DE5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		140E0B2521D0D63700CDF4DD /* Main.storyboard */ = {
@@ -376,6 +841,7 @@
 		};
 		140E0B3121D0D63800CDF4DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE3B95C25E76F536D5E0943 /* Pods-Bala.Andrii.MarsRover.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -395,6 +861,7 @@
 		};
 		140E0B3221D0D63800CDF4DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B7E2D4228C6F6C82D38EEC /* Pods-Bala.Andrii.MarsRover.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -409,6 +876,48 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14AE9C2321D2285D0045DE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7AB6250E16DB6742A4E6C5A /* Pods-Bala.Andrii.MarsRoverTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A8HNQGY2L;
+				INFOPLIST_FILE = Bala.Andrii.MarsRoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iThinkers.Bala-Andrii-MarsRoverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bala.Andrii.MarsRover.app/Bala.Andrii.MarsRover";
+			};
+			name = Debug;
+		};
+		14AE9C2421D2285D0045DE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 587FCEAB06A33D75B9E892D3 /* Pods-Bala.Andrii.MarsRoverTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3A8HNQGY2L;
+				INFOPLIST_FILE = Bala.Andrii.MarsRoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iThinkers.Bala-Andrii-MarsRoverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bala.Andrii.MarsRover.app/Bala.Andrii.MarsRover";
 			};
 			name = Release;
 		};
@@ -429,6 +938,15 @@
 			buildConfigurations = (
 				140E0B3121D0D63800CDF4DD /* Debug */,
 				140E0B3221D0D63800CDF4DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AE9C2521D2285D0045DE5C /* Build configuration list for PBXNativeTarget "Bala.Andrii.MarsRoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AE9C2321D2285D0045DE5C /* Debug */,
+				14AE9C2421D2285D0045DE5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
