@@ -68,9 +68,9 @@ class PhotosPresenterImplementation: PhotosPresenter {
     func configure(cell: PhotoCellView, forRow row: Int) {
         let photo = photos[row]
         
-        cell.display(imagePath: photo.img_src)
-        cell.display(date: photo.earth_date)
-        cell.display(camera: photo.camera.full_name)
+        cell.display(imagePath: photo.imgSrc)
+        cell.display(date: photo.earthDate)
+        cell.display(camera: photo.camera.fullName)
     }
     
     func didSelect(row: Int) {

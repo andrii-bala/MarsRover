@@ -33,8 +33,8 @@ class PhotoDetailsPresenterImplementation: PhotoDetailsPresenter {
     }
     
     func viewDidLoad() {
-        view?.display(imagePath: photo.img_src)
-        view?.display(date: photo.earth_date)
-        view?.display(camera: photo.camera.full_name)
+        view?.display(imagePath: photo.imgSrc)
+        view?.display(date: photo.earthDate)
+        view?.display(camera: photo.camera.fullName)
     }
 }

@@ -14,34 +14,48 @@ struct Photos: Codable {
 
 struct Photo: Codable {
     let id, sol: Int
-    let camera: PhotoCamera
-    let img_src: String
-    let earth_date: String
+    let camera: Camera
+    let imgSrc: String
+    let earthDate: String
     let rover: Rover
+
+    enum CodingKeys: String, CodingKey {
+        case id, sol, camera
+        case imgSrc = "img_src"
+        case earthDate = "earth_date"
+        case rover
+    }
 }
 
-struct PhotoCamera: Codable {
+struct Camera: Codable {
     let id: Int
     let name: String
-    let rover_id: Int
-    let full_name: String
+    let roverID: Int
+    let fullName: String
+
+    enum CodingKeys: String, CodingKey {
+        case id, name
+        case roverID = "rover_id"
+        case fullName = "full_name"
+    }
 }
 
 struct Rover: Codable {
     let id: Int
-    let name, landing_date, launch_date, status: String
-    let max_sol: Int
-    let max_date: String
-    let total_photos: Int
-    let cameras: [CameraElement]
+    let name: String
+    let landingDate, launchDate: String
+    let status: String
+
+    enum CodingKeys: String, CodingKey {
+        case id, name
+        case landingDate = "landing_date"
+        case launchDate = "launch_date"
+        case status
+    }
 }
 
-struct CameraElement: Codable {
-    let name, full_name: String
-}
-
-extension Photo: Equatable { }
-
-func == (lhs: Photo, rhs: Photo) -> Bool {
+extension Photo: Equatable {}
+    
+func ==(lhs: Photo, rhs: Photo) -> Bool {
     return lhs.id == rhs.id
 }
